@@ -1,0 +1,18 @@
+[project]
+name = "aws-sts"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "amazon-transcribe>=0.6.4",
+    "boto3>=1.40.4",
+    "langchain-aws>=0.2.30",
+    "langchain-core>=0.3.72",
+    "langgraph>=0.6.4",
+    "python-dotenv>=1.1.1",
+    "simple-salesforce>=1.12.6",
+    "torch>=2.8.0",
+    "torchaudio>=2.8.0",
+    "websockets>=15.0.1",
+]
