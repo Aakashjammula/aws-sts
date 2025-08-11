@@ -16,3 +16,13 @@ dependencies = [
     "torchaudio>=2.8.0",
     "websockets>=15.0.1",
 ]
+
+# Correct: double square brackets! This is an array of tables.
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu" }]
+torchaudio = [{ index = "pytorch-cpu" }]
